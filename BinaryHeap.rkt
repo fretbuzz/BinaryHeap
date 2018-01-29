@@ -17,9 +17,6 @@ Time complexity: (N = size of the heap)
  heap:find-min      O(1)          Access index zero of the heap, so constant time
  heap:remove-min!   O(log(N))     Must percolate-down, so proportional to height of the tree
 
-NOTE: While this was assigned as a homework assignemnt for EECS214 at Northwestern University in the Fall of 2015, ALL code (including comments, 
-function descriptions, the testing apparatus, and the tests as well as the actual code) are the sole work of the author.
-
 Dictionary:
  N  : the set of natural numbers
  N+ : the set of positive integers
